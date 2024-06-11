@@ -7,7 +7,7 @@ import Cakes from "./Cakes";
 import Cart from "./Cart";
 
 export default function Header(){
-    const{totalUniqueItems}=useCart()
+    const{totalUniqueItems}= useCart()
     return(
         <div>
         <header className=' h-fit top-0 sticky'>
